@@ -1,0 +1,46 @@
+===Database infograph
+
+== Table structure for table posts
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(20)|No|
+|nameproject|varchar(200)|No|
+|description|varchar(200)|No|
+|sector|varchar(200)|No|
+|value|int(200)|No|
+|state|varchar(200)|No|
+|user_id|int(11)|No|
+|time|timestamp|No|current_timestamp()
+== Dumping data for table posts
+
+|16|project 1|project 1 , sector the technology 
+the porject relation in program and media .|technology|10|rejected|17|2021-09-08 12:16:26
+|17|project 2 |the project relation nutrition
+I think the project will successful|nutritional|5|approved|17|2021-09-08 12:06:29
+|18|khaled project|مشروع متعلق بالبناء التكنولوجي في المستقبل|structural|10|rejected|18|2021-09-08 11:50:11
+|20|yousef 1|smart water metar|watery|10|pending|19|2021-09-08 12:12:02
+|21|khalil 1 project|project 1 with khalil|structural|10|Not yet considered |20|2021-09-08 11:48:39
+|22|البذرة|مشروع البذرة الزراعي |agricultural|10|approved|18|2021-09-08 12:14:50
+|23|projcet 3|project 4 |structural|15|pending|18|2021-09-08 12:17:52
+|24|projcet 5|project 5|technology|10|Not yet considered |18|2021-09-08 12:17:18
+|25|project 6|project 6|structural|10|Not yet considered |18|2021-09-08 12:17:33
+== Table structure for table users
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(20)|No|
+|username|varchar(100)|No|
+|email|varchar(100)|No|
+|phone|varchar(100)|No|
+|password|varchar(200)|No|
+|admin|int(20)|No|
+== Dumping data for table users
+
+|1|anas alqady|anasalqady9@gmail.com|0798579656|25d55ad283aa400af464c76d713c07ad|1
+|17|ahmad|ahmad@gmail.com|0777777777|25d55ad283aa400af464c76d713c07ad|0
+|18|khaled|khaled@gmail.com|0787606068|25d55ad283aa400af464c76d713c07ad|0
+|19|yousef|yousef@gmail.com|0785888888|25d55ad283aa400af464c76d713c07ad|0
+|20|khalil|khalil@gmail.com|0777777777|25d55ad283aa400af464c76d713c07ad|0
